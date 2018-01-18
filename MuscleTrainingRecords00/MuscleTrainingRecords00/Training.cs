@@ -27,11 +27,11 @@ namespace MuscleTrainingRecords00
                 return Menu + "                                                　　　　　 　　　   " + Load;
             }
 
-            /*if (Menu.Length < 27)
+            if (Menu.Length < 27)
             {
                 return String.Format("%26s", Menu ) + Load;
 
-            }*/
+            }
             else
             {
                 return Menu + "                                                　　　　　 　　　   " + Load;
