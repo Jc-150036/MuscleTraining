@@ -29,12 +29,12 @@ namespace MuscleTrainingRecords00
 
             if (Menu.Length < 27)
             {
-                return String.Format("%26s", Menu ) + Load;
+                return String.Format("{"+" "+",27}", Menu ) + Load;
 
             }
             else
             {
-                return Menu + "                                                　　　　　 　　　   " + Load;
+                return Menu + "                                         " + Load;
             }
         }
     }
